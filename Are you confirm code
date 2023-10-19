@@ -1,0 +1,22 @@
+<HTML>
+    <head>
+        <title>
+            INTERNAL JS
+        </title>
+        <SCRIPT>
+            function demo(){
+                if(confirm ("are you sure?")==true)
+                {
+                    document.write("You have pressed ok");
+                }
+                else
+                {
+                    document.write("cancle pressed");
+                }
+            }
+        </SCRIPT>
+    </head>
+    <body>
+        <button onclick="demo()">click here</button>
+    </body>
+</HTML>
