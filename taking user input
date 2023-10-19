@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>
+            INTERNAL JAVASCRIPT
+        </title>
+        <script>
+            function demo(){
+                var x=prompt("Enter your name");
+                document.write("Welcome"+" "+x);
+            }
+        </script>
+        
+    </head>
+    <body>
+        <button onclick="demo()"> click here</button>
+    </body>
+</html>
